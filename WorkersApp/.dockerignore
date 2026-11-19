@@ -1,0 +1,41 @@
+# Build outputs
+bin/
+obj/
+
+# Git
+.git/
+.gitignore
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Test results and coverage
+TestResults/
+coverage/
+coverage.*
+
+# Docker
+Dockerfile*
+docker-compose*
+.docker/
+
+# Documentation
+README*
+LICENSE*

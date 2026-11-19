@@ -1,0 +1,26 @@
+@WaraWorkersApp_HostAddress = http://localhost:5000
+
+POST {{WorkersApp_HostAddress}}/api/usuario/login
+Content-Type: application/json
+
+{
+    "username": "diegoquispe",
+    "clave": "diegoquispe"
+}
+
+###
+POST {{WorkersApp_HostAddress}}/api/trabajador/getByDni
+Content-Type: application/json
+
+null
+
+###
+POST {{WorkersApp_HostAddress}}/api/trabajador/create
+Content-Type: application/json
+
+{
+  "nombre" : "pruebanombre",
+  "apellido" : "pruebaapellido",
+  "dni" : "77459082",
+  "edad" : 19
+}

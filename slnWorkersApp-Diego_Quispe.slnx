@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HashGenerator/HashGenerator.csproj" />
+  <Project Path="WorkersApp/WorkersApp.csproj" />
+</Solution>
